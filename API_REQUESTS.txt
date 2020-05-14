@@ -1,0 +1,20 @@
+API RESTful BREAD REQUESTS:
+**TESTED in Insomnia"
+GET FILE
+GET - http://127.0.0.1:8000/api/files/get
+CREATE FILE
+POST - http://127.0.0.1:8000/api/files/create (Multipart Form: any file)
+POST POLL
+POST - http://127.0.0.1:8000/api/errors (JSON: {"title":"testing dsfdfafsdffdfffdsfsfsdfsdffsd"})
+PUT POLL
+PUT - http://127.0.0.1:8000/api/polls/11 (JSON: {"title":"Test Change"})
+GET POLLS
+GET - http://127.0.0.1:8000/api/polls?page=2 (api pagination)
+GET QUESTIONS
+GET - http://127.0.0.1:8000/api/questions 
+GET POLL Does not Exist
+GET - http://127.0.0.1:8000/api/polls/5
+DELETE POLL
+GET - http://127.0.0.1:8000/api/polls/4
+
+OAuth2 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiY2Y3ZjYwNGIzMjE4ZDczYmNiNDk3NjExMGI2YzIzNzBkMzFmOTY4MDg1Njc0MTM1YjU3NWNiZDk1ZDlmNjkwOGQ2NjJiMWY5M2M2OTE0Y2IiLCJpYXQiOjE1ODkzODU3MzEsIm5iZiI6MTU4OTM4NTczMSwiZXhwIjoxNjIwOTIxNzMxLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ngzdkrpOcIgz33QuCUhaJYEu5rFoCYoAJyereXMPfLPGHo1XBtD_sewBnykK4e_HgOpcagX7pfHxhq5dSPgI9zJMJUhKOnCt3ORLrrm5ONGseZhZ9XN-I65NKnG99MKQjYb9Jr2lZcG-IYinNlII6WLWa4G8pBkCxGcnDJ4EQJ-kvdX2jLn24YYIL34Puljlz8PDzP8z7UcpMDx-QzmgaLgSgtDcwGCIMl5AnINyt120kENWC9UJAipU-GGi11ndO6i-Jq5K5BmJn6-h56HULzH3DxDjCWyGFWNKsMVNf5frVCGlYxTkBSsF-i5UMKo4vEVULjW8T6mcsRU7bTcXLj9hmPsbl5SRs36olOYNPXah0mN7hw80k70261i1ioddvB2YZuN83UConskimWgxgu0cWAj0jPO3HB6gCxaLniBi5EulzQxPZGmbILQNxLvgQ5z_fCVWk2Q5xh4i7XihtgHINzELdcBukoXPvz0Cvo7xEHx8ltcaMd51Yio-mxTMLHbrYmlt6wo0Ar_kZ8KVyl9FxFAUHBnAmqhByrYY_yXcQSc54RNLKknyqj21OWILamCPKH3rQH__UOWrogpqCCcE8Mdo0_eBXSZb_SHaPbelKwLvH3tdHca0_2QV7atw5SngKIJCuqwilkCeAx9SYc8oLS-RoVvxZyD6wrGlxAI
